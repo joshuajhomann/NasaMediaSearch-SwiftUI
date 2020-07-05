@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7D38188B-74F4-4983-A349-7C92DC92D78F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87B25C17-F583-4DBD-A04E-FE909892C6FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NasaMediaSearch-SwiftUI/NetworkImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "87B25C17-F583-4DBD-A04E-FE909892C6FD - a965e3678660234f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Nuke.ImageResponse, Nuke.ImagePipeline.Error&gt;) -&gt; () in closure #1 (Foundation.URL) -&gt; Nuke.ImageTask in closure #1 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in NasaMediaSearch_SwiftUI.NetworkImage.body.getter : some"
+                  moduleName = "NasaMediaSearch-SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josh/Develop/NasaMediaSearch-SwiftUI/NasaMediaSearch-SwiftUI/NetworkImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "154">
+               </Location>
+               <Location
+                  uuid = "87B25C17-F583-4DBD-A04E-FE909892C6FD - a965e3678660234f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Nuke.ImageResponse, Nuke.ImagePipeline.Error&gt;) -&gt; () in closure #1 (Foundation.URL) -&gt; Nuke.ImageTask in closure #1 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in NasaMediaSearch_SwiftUI.NetworkImage.body.getter : some"
+                  moduleName = "NasaMediaSearch-SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josh/Develop/NasaMediaSearch-SwiftUI/NasaMediaSearch-SwiftUI/NetworkImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "173">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
