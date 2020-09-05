@@ -12,7 +12,7 @@ struct MediaCell: View {
   var body: some View {
     ZStack {
       Color(UIColor.systemGray)
-      VStack(alignment: .leading, spacing: 12) {
+      VStack(alignment: .center, spacing: 12) {
         NetworkImage(
           url: (item.links?.first?.href).flatMap(URL.init(string:)),
           placeHolder: nil
@@ -20,13 +20,16 @@ struct MediaCell: View {
         .aspectRatio(1, contentMode: .fit)
         .frame(width: 300, height: 300, alignment: .center)
         .clipShape(RoundedRectangle(cornerRadius: 24))
+        VStack(alignment: .leading, spacing: 12) {
         Text(item.data.first?.title ?? "")
           .font(.title)
         Text(item.data.first?.description508 ?? "")
           .font(.subheadline)
+        }
         Spacer()
       }
       .padding(.all, 24)
+      .clipShape(RoundedRectangle(cornerRadius: 24))
     }
   }
 }
@@ -36,7 +39,7 @@ struct SearchResultsView: View {
   @Binding var selectedItem: Item?
   var body: some View {
     ScrollView {
-      LazyVGrid(columns: [GridItem(.adaptive(minimum: 300), spacing: 12)]
+      LazyVGrid(columns: [GridItem(.adaptive(minimum: 348), spacing: 12)]
       ) {
         ForEach(items) { item in
           VStack {
